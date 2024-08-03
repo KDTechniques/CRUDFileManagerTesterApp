@@ -3,8 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7649392C5E671400DE94FE /* CRUDFileManager in Frameworks */ = {isa = PBXBuildFile; productRef = 0B7649382C5E671400DE94FE /* CRUDFileManager */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B76491D2C5E66A800DE94FE /* CRUDFileManagerTesterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUDFileManagerTesterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +23,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7649392C5E671400DE94FE /* CRUDFileManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 			);
 			name = CRUDFileManagerTesterApp;
 			packageProductDependencies = (
+				0B7649382C5E671400DE94FE /* CRUDFileManager */,
 			);
 			productName = CRUDFileManagerTesterApp;
 			productReference = 0B76491D2C5E66A800DE94FE /* CRUDFileManagerTesterApp.app */;
@@ -90,6 +96,9 @@
 				Base,
 			);
 			mainGroup = 0B7649142C5E66A700DE94FE;
+			packageReferences = (
+				0B7649372C5E671400DE94FE /* XCLocalSwiftPackageReference "../crud-file-manager-swift" */,
+			);
 			productRefGroup = 0B76491E2C5E66A800DE94FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -319,6 +328,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0B7649372C5E671400DE94FE /* XCLocalSwiftPackageReference "../crud-file-manager-swift" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../crud-file-manager-swift";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B7649382C5E671400DE94FE /* CRUDFileManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CRUDFileManager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B7649152C5E66A700DE94FE /* Project object */;
 }
